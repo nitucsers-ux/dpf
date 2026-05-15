@@ -12,7 +12,7 @@ This repository is the companion artefact for the paper
 > Department of Computer Science & Engineering, Indira Gandhi University, Meerpur, Rewari
 > *(under review, 2026)*
 
-The paper extends Alkhatib's multifaceted prevention framework with an end-to-end executable implementation, a Merkle-batched on-chain layout, a calibrated post-quantum signature wrapper, and a cross-distribution evaluation harness. This repository contains the complete source code, synthetic dataset generator, experiment drivers, raw CSV results, a Solidity smart contract, unit tests, and the LaTeX manuscript sources.
+The paper gives  multifaceted prevention framework with an end-to-end executable implementation, a Merkle-batched on-chain layout, a calibrated post-quantum signature wrapper, and a cross-distribution evaluation harness. This repository contains the complete source code, synthetic dataset generator, experiment drivers, raw CSV results, a Solidity smart contract, unit tests, and the LaTeX manuscript sources.
 
 ---
 
