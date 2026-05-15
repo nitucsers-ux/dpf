@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpf"
+version = "1.0.0"
+description = "A reproducible implementation of a multifaceted deepfake prevention framework"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Nitu Yadav",     email = "niturao.2810@gmail.com"},
+    {name = "Savita Sheoran", email = "savita.sheoran@igu.ac.in"},
+    {name = "Deepak Yadav",   email = "dpkrao91@gmail.com"},
+]
+keywords = ["deepfake", "post-quantum-cryptography", "blockchain", "watermarking", "reproducible-research"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Security :: Cryptography",
+]
+
+dependencies = [
+    "numpy>=1.24.0,<2.0.0",
+    "scipy>=1.10.0,<2.0.0",
+    "Pillow>=10.0.0,<11.0.0",
+    "PyWavelets>=1.4.0,<2.0.0",
+    "scikit-image>=0.21.0,<1.0.0",
+    "scikit-learn>=1.3.0,<2.0.0",
+    "cryptography>=41.0.0,<44.0.0",
+    "pycryptodome>=3.18.0,<4.0.0",
+    "eth-hash[pycryptodome]>=0.5.0,<1.0.0",
+    "pandas>=2.0.0,<3.0.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4.0", "pytest-cov>=4.1.0"]
+plot = ["matplotlib>=3.7.0"]
+oqs  = ["liboqs-python>=0.10.0"]
+
+[project.urls]
+Homepage      = "https://github.com/USER/dpf"
+Repository    = "https://github.com/USER/dpf"
+Documentation = "https://github.com/USER/dpf/blob/main/README.md"
+"Bug Tracker" = "https://github.com/USER/dpf/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "experiments*", "data*"]

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "dpf — Implementation of a Multifaceted Deepfake Prevention Framework"
+message: "If you use this software, please cite the accompanying paper using the metadata below."
+type: software
+authors:
+  - given-names: Nitu
+    family-names: Yadav
+    email: niturao.2810@gmail.com
+    affiliation: "Department of Computer Science & Engineering, Indira Gandhi University, Meerpur, Rewari"
+  - given-names: Savita
+    family-names: Sheoran
+    email: savita.sheoran@igu.ac.in
+    affiliation: "Department of Computer Science & Engineering, Indira Gandhi University, Meerpur, Rewari"
+  - given-names: Deepak
+    family-names: Yadav
+    email: dpkrao91@gmail.com
+    affiliation: "Department of Computer Science & Engineering, Indira Gandhi University, Meerpur, Rewari"
+repository-code: "https://github.com/USER/dpf"
+license: MIT
+keywords:
+  - deepfake
+  - post-quantum cryptography
+  - blockchain
+  - merkle batching
+  - DWT-SVD watermarking
+  - reproducible research
+preferred-citation:
+  type: article
+  title: "Implementation and Evaluation of a Multifaceted Deepfake Prevention Framework"
+  authors:
+    - given-names: Nitu
+      family-names: Yadav
+    - given-names: Savita
+      family-names: Sheoran
+    - given-names: Deepak
+      family-names: Yadav
+  year: 2026
+  notes: "Manuscript under review."

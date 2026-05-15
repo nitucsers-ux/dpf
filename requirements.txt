@@ -1,0 +1,31 @@
+# Core scientific computing
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0,<2.0.0
+
+# Image and signal processing
+Pillow>=10.0.0,<11.0.0
+PyWavelets>=1.4.0,<2.0.0
+scikit-image>=0.21.0,<1.0.0
+
+# Machine learning
+scikit-learn>=1.3.0,<2.0.0
+
+# Cryptography (classical)
+cryptography>=41.0.0,<44.0.0
+pycryptodome>=3.18.0,<4.0.0
+
+# Optional: real post-quantum backend (uncomment if liboqs is installed)
+# liboqs-python>=0.10.0
+
+# Ethereum / smart-contract simulation
+eth-hash[pycryptodome]>=0.5.0,<1.0.0
+
+# Testing
+pytest>=7.4.0,<9.0.0
+pytest-cov>=4.1.0,<6.0.0
+
+# CSV / data handling
+pandas>=2.0.0,<3.0.0
+
+# Plotting (optional, only needed for figure regeneration)
+matplotlib>=3.7.0,<4.0.0
