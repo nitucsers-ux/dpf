@@ -1,0 +1,6 @@
+algorithm,signature_bytes,metadata_bytes,header_bytes,total_bytes,kilobytes
+RSA,256,213,12,481,0.47
+ECDSA,132,213,12,357,0.35
+Dilithium-5,4595,213,12,4820,4.71
+Falcon-512,666,213,12,891,0.87
+SLH-DSA-128s,7856,213,12,8081,7.89

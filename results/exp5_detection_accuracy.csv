@@ -1,0 +1,5 @@
+condition,accuracy_pct,fpr_pct,inference_ms,routed_to_panel
+AI / in-distribution,86.5,13.0,3.32,0
+AI / cross-distribution,92.3,15.5,3.43,0
+AI + human / in-distribution,89.3,12.5,3.32,45
+AI + human / cross-distribution,93.8,12.5,3.43,26
