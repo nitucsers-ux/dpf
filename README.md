@@ -218,6 +218,6 @@ Pull requests are welcome. The intended extension paths, in approximate priority
 For questions or issues:
 
 * Open an issue on GitHub: https://github.com/USER/dpf/issues
-* Email the corresponding author: niturao.2810@gmail.com
+* Email the corresponding author: dpkrao91@gmail.com
 
 The authors thank the editor and reviewers for the constructive feedback that led to this artefact.
