@@ -1,11 +1,11 @@
 # Architecture
 
-This document maps the four modules of Alkhatib's multifaceted prevention framework to the source files in this repository.
+This document maps the four modules of multifaceted prevention framework to the source files in this repository.
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
 │                      src/pipeline.py                          │
-│  orchestrates Scenario A (publish) and Scenario B (verify)    │
+│   Scenario A (publish) and Scenario B (verify)    │
 └─────┬──────────────┬──────────────┬──────────────┬───────────┘
       │              │              │              │
       ▼              ▼              ▼              ▼
